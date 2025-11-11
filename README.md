@@ -1,7 +1,7 @@
-# 💸 Banco Javinha
+#  Banco Javinha
 Este é um sistema bancário simples desenvolvido em Java. Ele permite ao usuário criar contas (corrente e poupança), realizar saques, depósitos, transferências e visualizar o extrato de movimentações.
 
-## 🧠 Funcionalidades
+##  Funcionalidades
     Criação de Conta Corrente e Conta Poupança
 
     Saque, Depósito e Transferência entre contas
@@ -12,14 +12,14 @@ Este é um sistema bancário simples desenvolvido em Java. Ele permite ao usuár
 
     Diferenciação entre tipos de contas com mensagens personalizadas
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
     Java (console)
 
     java.util para manipulação de listas e datas
 
     java.text para formatação de moeda e datas
 
-## 🧾 Como usar
+##  Como usar
 
 ### Opção A) Usando Maven (recomendado)
 1. Compilar e empacotar:
@@ -45,7 +45,7 @@ Este é um sistema bancário simples desenvolvido em Java. Ele permite ao usuár
 
 3. Escolha as opções do menu para criar contas, fazer transações, etc.
 
-## 📋 Estrutura do Projeto
+##  Estrutura do Projeto
     OperacoesConta: Interface com as operações básicas das contas
 
     Conta: Classe abstrata base com atributos e métodos comuns
@@ -56,13 +56,13 @@ Este é um sistema bancário simples desenvolvido em Java. Ele permite ao usuár
 
     Main: Classe principal com o menu de interação e execução do programa
 
-## 📅 Validação de Data
+##  Validação de Data
 O sistema exige que a data da operação seja informada no formato dd/MM/yyyy, e não aceita datas anteriores à atual.
 
-## 🔐 Segurança
+##  Segurança
 Cada conta possui uma senha que deve ser validada para realizar qualquer operação.
 
-## 📈 Exemplo de Uso
+##  Exemplo de Uso
 
 --- ♥ Banco Javinha ♥ ---
 1. Criar Conta

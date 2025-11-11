@@ -20,12 +20,29 @@ Este é um sistema bancário simples desenvolvido em Java. Ele permite ao usuár
     java.text para formatação de moeda e datas
 
 ## 🧾 Como usar
-1. Compile o projeto:
 
-        javac Main.java
-2. Execute o programa:
+### Opção A) Usando Maven (recomendado)
+1. Compilar e empacotar:
 
-        java Main
+    mvn clean package
+
+2. Executar (via Maven):
+
+    mvn -q exec:java
+
+   Ou executar o JAR gerado:
+
+    java -jar target/BancoJAVINHA-1.0.0.jar
+
+### Opção B) Sem Maven (javac/java)
+1. Compilar:
+
+    javac -d out -sourcepath src\main\java src\main\java\com\bancojavinha\Main.java
+
+2. Executar:
+
+    java -cp out com.bancojavinha.Main
+
 3. Escolha as opções do menu para criar contas, fazer transações, etc.
 
 ## 📋 Estrutura do Projeto

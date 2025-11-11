@@ -1,0 +1,56 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build: Console",
+			"type": "shell",
+			"command": "javac",
+			"args": [
+				"-d",
+				"out",
+				"-sourcepath",
+				"src\\main\\java",
+				"src\\main\\java\\com\\bancojavinha\\Main.java"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run: Console",
+			"type": "shell",
+			"command": "java",
+			"args": [
+				"-cp",
+				"out",
+				"com.bancojavinha.Main"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "Run: JavaFX (Maven)",
+			"type": "shell",
+			"command": "mvn",
+			"args": [
+				"javafx:run"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "none"
+		},
+		{
+			"label": "Run JavaFX",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"mvn clean javafx:run"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

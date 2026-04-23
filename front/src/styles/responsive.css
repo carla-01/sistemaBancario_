@@ -1,0 +1,5 @@
+@media (max-width: 860px) {
+  .calc-form {
+    grid-template-columns: 1fr;
+  }
+}

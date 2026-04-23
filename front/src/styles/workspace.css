@@ -1,0 +1,129 @@
+.workspace {
+  margin: 0 0.9rem 0.9rem;
+  border: 2px solid #573b82;
+  background: linear-gradient(180deg, #f8f3ff 0%, #efe5ff 100%);
+}
+
+.workspace-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0.8rem 1rem 0.5rem;
+  border-bottom: 1px solid #d2c0f1;
+  color: #35234f;
+}
+
+.workspace-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.workspace-header strong {
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+}
+
+.workspace-header span {
+  line-height: 1.5;
+  color: #504070;
+}
+
+.workspace-content {
+  padding: 1rem;
+}
+
+.workspace-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem;
+}
+
+.tab-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid #7a5ca9;
+  background: #f1e8ff;
+  color: #3a2a59;
+  font: inherit;
+  font-size: 0.82rem;
+  padding: 0.25rem 0.45rem 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.tab-chip--active {
+  background: #ddcbfb;
+  border-color: #5f4192;
+}
+
+.tab-close {
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #7a5ca9;
+  background: #fff;
+  color: #4a3470;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.workspace-note {
+  margin: 0;
+  color: #4f3f72;
+}
+
+.message-box {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #d5c4ef;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.statement-box {
+  display: grid;
+  gap: 0.65rem;
+  padding: 0.9rem;
+  border: 1px solid #b895ea;
+  background: rgba(255, 255, 255, 0.64);
+}
+
+.statement-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #decff7;
+  color: #3b2c58;
+}
+
+.statement-summary strong {
+  font-size: 0.95rem;
+}
+
+.statement-summary span {
+  font-size: 0.9rem;
+}
+
+.statement-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.statement-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0.8rem;
+  border: 1px solid #d5c4ef;
+  background: rgba(255, 255, 255, 0.68);
+}

@@ -1,0 +1,122 @@
+.desktop {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.program-window {
+  width: min(96vw, 960px);
+  border: 2px solid #35234f;
+  background: #ded3f5;
+  box-shadow: 0 18px 40px rgba(55, 30, 86, 0.28);
+}
+
+.title-bar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  height: 40px;
+  padding: 0 0.75rem;
+  background: linear-gradient(180deg, #6e4fa2 0%, #4d2f79 100%);
+  color: #f5ecff;
+  border-bottom: 2px solid #2d1d45;
+}
+
+.title-bar h1 {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-dots,
+.title-controls {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.title-dots span,
+.title-controls span {
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  padding: 0.55rem 0.7rem;
+  background: #ece2ff;
+  border-bottom: 1px solid #bea8e5;
+}
+
+.menu-datetime {
+  color: #4a3771;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.menu-bar button,
+.app-icon {
+  font: inherit;
+}
+
+.menu-bar button {
+  border: 1px solid transparent;
+  background: transparent;
+  color: #38295a;
+  padding: 0.25rem 0.55rem;
+  cursor: pointer;
+}
+
+.desktop-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(90px, 1fr));
+  gap: 1rem;
+  padding: 1.2rem 1.1rem 1rem;
+  background: linear-gradient(180deg, #f2ebff 0%, #e8ddfb 100%);
+}
+
+.app-icon {
+  display: grid;
+  gap: 0.45rem;
+  justify-items: center;
+  padding: 0.8rem 0.45rem;
+  border: 1px solid transparent;
+  background: transparent;
+  color: #35234f;
+  cursor: pointer;
+}
+
+.app-icon--active {
+  background: rgba(111, 79, 162, 0.14);
+  border-color: rgba(77, 47, 121, 0.5);
+}
+
+.icon-emoji {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border: 2px solid #6d4b9c;
+  background: linear-gradient(180deg, #fff8ff 0%, #d9c7f6 100%);
+  font-size: 1.65rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.app-icon span:last-child {
+  font-size: 0.82rem;
+}
+
+.menu-bar button:hover,
+.app-icon:hover {
+  background: rgba(140, 93, 205, 0.12);
+  border-color: rgba(77, 47, 121, 0.45);
+}

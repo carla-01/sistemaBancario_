@@ -6,7 +6,7 @@ Sistema bancario com frontend em TypeScript (Vite) e backend em Java (API HTTP).
 
 
 ![Tela do sistema](./imagens/captura-tela.png)
-![alt text](image.png)
+![Tela do sistema 2](./imagens/Captura%20de%20tela%202026-04-22%20170410.png)
 
 ## Requisitos
 

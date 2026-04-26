@@ -12,8 +12,8 @@ Sistema bancario com frontend em TypeScript (Vite) e backend em Java (API HTTP).
 
 - Node.js 18+
 - Java 22
-- Maven (opcional, se nao estiver no PATH use o run.bat)
-
+- Maven
+  
 ## Como rodar
 
 ### Frontend
